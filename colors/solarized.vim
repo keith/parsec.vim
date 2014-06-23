@@ -104,9 +104,11 @@ if 1
     let s:base02      = "#393939"
     " Normal s:foreground
     " let s:base0       = "#cccccc"
-    let s:base0       = "#eee8d5"
+    " let s:base0       = "#eee8d5"
+    let s:base0       = "#fdf6e3"
     " Background s:background
     let s:base03      = "#2d2d2d"
+    let s:base03      = "#2a2a2a"
 
     " let s:cyan        = "#009999" " from eighties
     " let s:green       = "#99cc99" " from eighties
@@ -125,27 +127,6 @@ if 1
 
     "let s:green       = "#859900" "original
     " let s:green       = "#719e07" "experimental
-elseif (has("gui_running") && g:solarized_degrade == 1)
-    " These colors are identical to the 256 color mode. They may be viewed
-    " while in gui mode via "let g:solarized_degrade=1", though this is not
-    " recommened and is for testing only.
-    let s:vmode       = "gui"
-    let s:base03      = "#1c1c1c"
-    let s:base02      = "#262626"
-    let s:base01      = "#4e4e4e"
-    let s:base00      = "#585858"
-    let s:base0       = "#808080"
-    let s:base1       = "#8a8a8a"
-    let s:base2       = "#d7d7af"
-    let s:base3       = "#ffffd7"
-    let s:yellow      = "#af8700"
-    let s:orange      = "#d75f00"
-    let s:red         = "#af0000"
-    let s:magenta     = "#af005f"
-    let s:violet      = "#5f5faf"
-    let s:blue        = "#0087ff"
-    let s:cyan        = "#00afaf"
-    let s:green       = "#5f8700"
 elseif g:solarized_termcolors != 256 && &t_Co >= 16
     let s:vmode       = "cterm"
     let s:base03      = "8"
@@ -217,7 +198,6 @@ else
     let s:blue        = "DarkBlue"      " 4
     let s:cyan        = "DarkCyan"      " 6
     let s:green       = "DarkGreen"     " 2
-
 endif
 "}}}
 
@@ -423,8 +403,7 @@ exe "hi! NonText"        .s:fmt_bold   .s:fg_base00 .s:bg_none
 exe "hi! StatusLine"     .s:fmt_none   .s:fg_base1  .s:bg_base02 .s:fmt_revbb
 exe "hi! StatusLineNC"   .s:fmt_none   .s:fg_base00 .s:bg_base02 .s:fmt_revbb
 exe "hi! Visual"         .s:fmt_none   .s:fg_base01 .s:bg_base03 .s:fmt_revbb
-exe "hi! VisualNOS"         .s:fmt_none   .s:fg_base01 .s:bg_base03 .s:fmt_revbb
-" exe "hi! VisualNOS"      .s:fmt_stnd   .s:fg_base01   .s:bg_base02 .s:fmt_revbb
+exe "hi! VisualNOS"      .s:fmt_stnd   .s:fg_base01 .s:bg_base02 .s:fmt_revbb
 exe "hi! Directory"      .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! ErrorMsg"       .s:fmt_revr   .s:fg_red    .s:bg_none
 exe "hi! IncSearch"      .s:fmt_stnd   .s:fg_orange .s:bg_none
@@ -433,7 +412,7 @@ exe "hi! MoreMsg"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! ModeMsg"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! LineNr"         .s:fmt_none   .s:fg_base01 .s:bg_base02
 exe "hi! Question"       .s:fmt_bold   .s:fg_cyan   .s:bg_none
-exe "hi! VertSplit"  .s:fmt_none   .s:fg_base03 .s:bg_base03
+exe "hi! VertSplit"      .s:fmt_none   .s:fg_base03 .s:bg_base03
 exe "hi! Title"          .s:fmt_bold   .s:fg_orange .s:bg_none
 exe "hi! WarningMsg"     .s:fmt_bold   .s:fg_red    .s:bg_none
 exe "hi! WildMenu"       .s:fmt_none   .s:fg_base2  .s:bg_base02 .s:fmt_revbb
