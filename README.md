@@ -3,14 +3,14 @@
 This is a vim version of the
 [parsec](https://github.com/Keithbsmiley/parsec) colorscheme. This is
 built using
-[color-build](https://github.com/Keithbsmiley/color-builder). If
+[color-builder](https://github.com/Keithbsmiley/color-builder). If
 you're not interested in clicking either of those links that means it
 is based on the [solarized vim
 template](https://github.com/altercation/vim-colors-solarized) using
 different colors. This repo is separate for slim inclusion as
 explained below.
 
-## Colors
+## Example
 
 ![screenshot](https://raw.githubusercontent.com/Keithbsmiley/parsec/master/screenshots/vim.png)
 
