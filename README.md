@@ -32,3 +32,11 @@ To your `.vimrc` and run `PluginInstall` from within vim or `vim +PluginInstall 
 cd ~/.vim/bundle
 git clone https://github.com/Keithbsmiley/plugin.vim.git
 ```
+
+## Usage
+
+To enable parsec add these to your `~/.vimrc`:
+
+```
+colorscheme parsec
+```
