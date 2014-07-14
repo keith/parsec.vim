@@ -21,7 +21,7 @@ explained below.
 Add:
 
 ```
-Bundle 'Keithbsmiley/parsec.vim'
+Plugin 'Keithbsmiley/parsec.vim'
 ```
 
 To your `.vimrc` and run `PluginInstall` from within vim or `vim +PluginInstall +qall` from the command line
