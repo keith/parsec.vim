@@ -12,7 +12,7 @@ explained below.
 
 ## Colors
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/Keithbsmiley/parsec/master/screenshots/vim.png)
 
 ## Installation
 
