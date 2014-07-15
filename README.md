@@ -10,6 +10,9 @@ template](https://github.com/altercation/vim-colors-solarized) using
 different colors. This repo is separate for slim inclusion as
 explained below.
 
+If you're using this in terminal vim you'll need to install one of the
+terminal themes from the [main repo](https://github.com/Keithbsmiley/parsec)
+
 ## Example
 
 ![screenshot](https://raw.githubusercontent.com/Keithbsmiley/parsec/master/screenshots/vim.png)
