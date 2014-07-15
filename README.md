@@ -30,7 +30,7 @@ To your `.vimrc` and run `PluginInstall` from within vim or `vim +PluginInstall 
 
 ```
 cd ~/.vim/bundle
-git clone https://github.com/Keithbsmiley/plugin.vim.git
+git clone https://github.com/Keithbsmiley/parsec.vim.git
 ```
 
 ## Usage
