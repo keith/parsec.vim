@@ -17,24 +17,8 @@ terminal themes from the [main repo](https://github.com/Keithbsmiley/parsec)
 
 ![screenshot](https://raw.githubusercontent.com/Keithbsmiley/parsec/master/screenshots/vim.png)
 
-## Installation
-
-### With [Vundle](https://github.com/gmarik/vundle)
-
-Add:
-
-```
-Plugin 'Keithbsmiley/parsec.vim'
-```
-
-To your `.vimrc` and run `PluginInstall` from within vim or `vim +PluginInstall +qall` from the command line
-
-### With [Pathogen](https://github.com/tpope/vim-pathogen)
-
-```
-cd ~/.vim/bundle
-git clone https://github.com/Keithbsmiley/parsec.vim.git
-```
+If you don't have a preferred installation method check out
+[vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Usage
 
